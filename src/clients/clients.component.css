@@ -1,0 +1,63 @@
+#work {
+	background-color: #fff;
+}
+
+#work h2 {
+	color: red;
+	margin-bottom: .7em;
+}
+
+
+#work .tag-line {
+	color: #767779;
+	font-size: 1.4em;
+	margin-bottom: 4em;
+}
+
+#work .work-row {
+	padding-bottom: 5px
+}
+.work-row:nth-child(even){
+    flex-direction: row-reverse;
+}
+.kazi{
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.details h3 {
+	color: #738182;
+	text-transform: uppercase;
+}
+
+.details .platform{
+	font-size: 0.8em;
+	text-transform: uppercase;
+	margin: 2em 0 -0.1em;
+	font-family: "Maven pro", sans-serif;
+	font-weight: 500;
+
+	color: #ff7654;
+}
+
+.details i {
+	color: #ff7654;
+	margin-right: 1em;
+}
+
+.details p {
+	color: #738182;
+	font-family: "Maven pro", sans-serif;
+	font-weight: 500;
+	font-size: 1.2em;
+	margin-bottom: 1.8em;
+}
+
+.details a, .details a:link, .details a:active{
+		border-radius: 50px;
+}
+
+.columns img{
+	box-shadow: 5px 5px 5px grey;
+} 
+

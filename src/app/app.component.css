@@ -1,0 +1,151 @@
+body, html {
+		background-color: #E3E3E3;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Lato", sans-serif !important;
+	font-weight: 900 !important;
+}
+
+.wrapper {
+		background: #E3E3E3;
+}
+
+.thin-bar {
+		border-bottom: 5px solid #F33F12;
+}
+
+.intro{
+		margin-top: 5em;
+		border: 1px solid #eee;
+		background-color: white;
+		padding-bottom: 1em;
+}
+
+.intro img {
+		width: 400px;
+		transition: transform 500ms ease-in;
+}
+
+.intro a{
+    border: solid #ff7654 2px;;
+    padding: 5px;
+    border-radius: 50px;
+    font-weight: 150px;
+	font-weight: 500;
+	
+}
+
+
+
+
+/** Experience ***/
+
+#experience {
+	background: #4c6d86;
+	/* padding: 6em 4em 5.6em; */
+}
+
+#experience h2 {
+	color: #fff;
+	margin-bottom: .7em;
+}
+
+#experience .tag-line {
+	color: white;
+	font-size: 1.4em;
+}
+
+#experience i {
+	color: rgb(255, 138, 89);
+	font-size: 4em;
+	
+}
+
+#experience h3 {
+	color: #fff;
+}
+
+/* .experience-topics p {
+	color: #ACAEB2;
+	font-family: "Maven pro", sans-serif; */
+     /* font-weight: 500; 
+}*/
+
+
+.experience-topics ul li {
+	list-style: none;
+	color: #bbd2ff;
+	font-family: "Maven pro", sans-serif;
+	font-weight: 500;
+} 
+
+
+
+/*** Footer Call-to-action ***/
+
+#footer-cta {
+	background-color: #ff7654;;
+	
+}
+
+#footer-cta h2 {
+	color: white;
+}
+
+#footer-cta p {
+	color: #fff;
+	font-family: "Maven pro", sans-serif;
+	font-weight: 500;
+	font-size: 1.2em;
+}
+
+#startButtonDiv {
+	margin-top: 3em;
+}
+
+#footer-cta a {
+	border: 2px solid #fff;
+	border-radius: 45px;
+	color: #fff;
+}
+
+#footer-cta a:hover {
+	background: #fff;
+	color: rgba(255, 103, 68, 0.91);
+	box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 14px 1px rgba(0, 0, 0, 0.15);
+}
+
+
+/*** footer starts ***/
+
+#footer {
+	padding: 5em 4em 2em;
+}
+
+#footer #logo {
+	background-color: rgba(255, 103, 68, 0.91);
+	border-radius: 50%;
+	color: #fff;
+	padding: .4em;
+	font-family: "Maven pro", sans-serif;
+	font-size: 1.6em;
+	font-weight: 500;
+	display: inline;
+}
+
+#footer #copyright {
+	margin-top: 1.6em;
+	font-family: "Maven pro", sans-serif;
+	font-weight: 500;
+	color: #7d7d7d;
+}
+
+#footer i {
+	padding: 5px;
+	color:  rgba(255, 103, 68, 0.91);
+	font-size: 1em;
+}
+
+
+
