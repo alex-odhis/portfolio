@@ -127,7 +127,7 @@ h1, h2, h3, h4, h5, h6 {
 	background-color: rgba(255, 103, 68, 0.91);
 	border-radius: 50%;
 	color: #fff;
-	padding: .4em;
+	padding: .2em;
 	font-family: "Maven pro", sans-serif;
 	font-size: 1.6em;
 	font-weight: 500;
@@ -141,7 +141,8 @@ h1, h2, h3, h4, h5, h6 {
 	color: #7d7d7d;
 }
 
-#footer i {
+#footer a {
+	text-decoration: none;
 	padding: 5px;
 	color:  rgba(255, 103, 68, 0.91);
 	font-size: 1em;

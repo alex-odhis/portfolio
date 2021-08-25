@@ -6,8 +6,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
 
 import { AppComponent } from './app.component';
 import { RouterModule } from '@angular/router';
-import { ClientsService } from 'src/clients/clients.service';
-import { ClientsComponent } from 'src/clients/clients.component';
+import { ClientsService } from 'src/app/clients/clients.service';
+import { ClientsComponent } from 'src/app/clients/clients.component';
 
 
 @NgModule({
