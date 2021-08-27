@@ -12,14 +12,14 @@ export class ClientsService{
             name: 'Flawless Makeup',
             platform: 'Web',
             description: 'A Makeup Artist Portfolio website.',
-            image: 'assets/images/makeup.png',
-            link: 'http://flawlessmakeup.com'
+            image: './assets/images/makeup.png',
+            link: 'https://alex-odhis.github.io/alex-flawless-makeup/home'
         },
         {
             name: 'Chapati Mistress',
             platform: 'Web',
             description: 'Chapati Mistress is an online kitchen store that has proven to be number one Nairobi darling.',
-            image: 'assets/images/chapati.png',
+            image: './assets/images/chapati.png',
             sub: 'Link coming soon'
     
         }
