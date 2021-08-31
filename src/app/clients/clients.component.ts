@@ -12,7 +12,7 @@ import { ClientsService } from "./clients.service";
   <p class="tag-line text-center wow bounceInDown">Here are few of my former clients.</p>
 
  <div class="kazi">
-    <div *ngFor = "let client of clients" class=" row work-row my-3">
+    <div *ngFor = "let client of clients" class=" row work-row pb-4">
         <div class="col-sm-6 columns wow fadeInRight">
         <img [src]="client.image" [alt]="client.name" class="img-fluid rounded">
         </div>
