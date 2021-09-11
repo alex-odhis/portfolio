@@ -15,7 +15,7 @@ export class ClientsService{
             image: './assets/images/makeup.png',
             link: 'https://alex-odhis.github.io/alex-flawless-makeup/home'
         },
-         {
+        {
             name: 'Task Manager App',
             platform: 'Web',
             description: 'A Task Manager Application to help you Organize and Finish your tasks on time and efficiently.',
