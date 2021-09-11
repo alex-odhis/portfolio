@@ -35,7 +35,7 @@ export class ClientsService{
 
 
 
-    getClients$ = of(this.clients).pipe(
+    clients$ = of(this.clients).pipe(
         catchError(this.handleError)
     )
 

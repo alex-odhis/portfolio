@@ -42,7 +42,7 @@ export class ClientsComponent{
 
     constructor(private clientsService: ClientsService){}
 
-    clients$ = this.clientsService.getClients$.pipe(
+    clients$ = this.clientsService.clients$.pipe(
         catchError( err=> {
             this.errorMessage = err;
             return of(null)
