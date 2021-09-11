@@ -23,14 +23,7 @@ export class ClientsService{
             link: 'https://odhis-manager-api.herokuapp.com/'
     
         },
-        {
-            name: 'Chapati Mistress',
-            platform: 'Web',
-            description: 'Chapati Mistress is an online kitchen store that has proven to be number one Nairobi darling.',
-            image: './assets/images/chapati.png',
-            sub: 'Link coming soon'
-    
-        }
+        
     ]
 
 
