@@ -1,6 +1,7 @@
 import { Injectable } from "@angular/core";
 import { Observable, of, throwError } from "rxjs";
 import { catchError } from "rxjs/operators";
+import { Client } from "./client.interface";
 
 @Injectable({
     providedIn: 'root'
@@ -35,7 +36,7 @@ export class ClientsService{
 
 
 
-    clients$ = of(this.clients).pipe(
+    clients$ = of<Client[]>(this.clients).pipe(
         catchError(this.handleError)
     )
 
