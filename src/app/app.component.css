@@ -17,13 +17,14 @@ h1, h2, h3, h4, h5, h6 {
 
 .intro{
 		margin-top: 5em;
-		border: 1px solid #eee;
+		border: 2px solid #eee;
 		background-color: white;
 		padding-bottom: 1em;
 }
 
 .intro img {
 		width: 400px;
+		border: 1px solid orange;
 		transition: transform 500ms ease-in;
 }
 

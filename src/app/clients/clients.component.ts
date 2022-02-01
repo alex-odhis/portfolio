@@ -10,11 +10,10 @@ import { ClientsService } from "./clients.service";
 <section *ngIf ="clients$ | async as clients" id="work">
   <h2 class="text-center p-3 wow bounceInDown">Work</h2>
   <p class="tag-line text-center wow bounceInDown">Here are few of my former clients.</p>
-
  <div class="kazi">
-    <div *ngFor = "let client of clients" class=" row work-row pb-4">
+    <div *ngFor = "let client of clients" class=" row work-row p-4">
         <div class="col-sm-6 columns wow fadeInRight">
-        <img [src]="client.image" [alt]="client.name" class="img-fluid rounded">
+          <img [src]="client.image" [alt]="client.name" class="img-fluid rounded">
         </div>
         <div class="col-sm-6 wow fadeInLeft">
             <div class="details details-ftm">
